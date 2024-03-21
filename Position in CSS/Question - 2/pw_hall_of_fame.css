@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+.container {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content {
+    width: 55%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+   
+}
+.heading {
+    font-size: 30px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(82, 17, 150);
+    color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.image {
+    width: 35%;
+    height: 400px;
+    background-image: url(kids.png);
+    background-size: cover;
+}

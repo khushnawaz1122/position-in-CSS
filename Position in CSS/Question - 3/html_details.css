@@ -1,0 +1,32 @@
+.container {
+    width: 303px;
+    height: 700px;
+    border: 2px solid black;
+}
+.heading {
+    height: 150px;
+    width: 303px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    width: 110px;
+    height: 130px;
+    background-image: url(html_logo.png);
+    background-size: cover;
+   
+}
+.details {
+    display: flex;
+   
+}
+.first_colm {
+    width: 50%;
+    color: blue;
+   
+}
+.second_colm {
+    width: 50%;
+   
+}

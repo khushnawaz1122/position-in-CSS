@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+   
+}
+.full_container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.image {
+    width: 118px;
+    height: 35px;
+    background-image: url(pw_skills.png);
+    background-size:contain;
+ 
+}
+
+.header {
+   
+    width: 120px;
+    height: 100%;
+    background-color: #212020f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+   
+
+
+}
+.nav_bar {
+    width: 100px;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    flex-direction: column;
+}
+.body {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.heading1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(70, 21, 162);
+}
+.main_image {
+    height: 400px;
+    width: 550px;
+    background-image: url(upskilling.jpg);
+    background-size: cover;
+}
+.heading2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(70, 21, 162);
+}

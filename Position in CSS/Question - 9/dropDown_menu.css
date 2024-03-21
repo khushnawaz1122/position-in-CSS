@@ -1,0 +1,15 @@
+.button {
+    width: 180px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options {
+    width: 168px;
+    max-height: 175px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
